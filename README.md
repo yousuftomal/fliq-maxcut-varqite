@@ -17,6 +17,7 @@ Given a graph  G = (V, E), the **Max-Cut** problem seeks a partition of the vert
 - **Verifiability**: Classical solutions can validate quantum results.
 - **Hardware-friendly**: Encodes directly into Pauli-Z operators for NISQ systems.
 
+The problem can be found [here](https://challenge.aiforgood.itu.int/match/matchitem/110)
 ---
 
 ## 🔧 Methodology
