@@ -155,7 +155,7 @@ Contributions welcome! To add new features or improvements:
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE.md) for details.
 
 ---
 
