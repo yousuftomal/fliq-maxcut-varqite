@@ -29,8 +29,9 @@ The core methodology involves:
 
 * **Graph Definition**: A 4-vertex, 5-edge graph is used as the problem instance.
 * **Hamiltonian Encoding**: The Max-Cut problem is encoded into an Ising Hamiltonian. This Hamiltonian is constructed as:
-$H = \sum_{(i,j) \in E} \frac{1 - Z_i Z_j}{2}$
-
+$$
+H = \sum_{(i,j) \in E} \frac{1 - Z_i Z_j}{2}
+$$
     where $E$ represents the set of edges, $I$ is the identity operator, and $Z_i, Z_j$ are Pauli-Z operators acting on qubits $i$ and $j$ respectively. The `MaxCutProblem` class in the notebook handles the creation of this `SparsePauliOp`.
 * **Classical Verification**: A classical brute-force search is implemented to find all optimal solutions and their corresponding Max-Cut values, which serves as a benchmark for quantum results.
 
